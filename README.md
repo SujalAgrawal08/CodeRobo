@@ -30,7 +30,7 @@ Check out the live deployed version:
 ## 📸 Screenshots
 
 ![Dashboard Preview](./assets/dashboard.png)
-![Code Editor](./assets/editor.png)
+![Project Preview](./assets/editor.png)
 
 
 ## 📦 Getting Started
