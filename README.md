@@ -25,12 +25,12 @@
 ## 🖥️ Live Preview
 
 Check out the live deployed version:  
-🔗 [https://coderobo.vercel.app](https://coderobo.vercel.app)
+🔗 [https://code-robo.vercel.app](https://code-robo.vercel.app/)
 
 ## 📸 Screenshots
 
-![Dashboard Preview](./assets/screenshot-dashboard.png)
-![Code Editor](./assets/screenshot-editor.png)
+![Dashboard Preview](./assets/dashboard.png)
+![Code Editor](./assets/editor.png)
 
 
 ## 📦 Getting Started
