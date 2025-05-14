@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 CodeRobo
 
-## Getting Started
+**CodeRobo** is an AI-powered code generation and collaboration platform. It allows developers to instantly generate full-stack projects, collaborate in real-time, preview code live, and export or deploy their work with a single click.
 
-First, run the development server:
+## 🌟 Features
+
+- 🔐 **User Authentication**: OAuth-based login using Google, powered by `react-oauth` and `uuid4`.
+- 🧠 **AI Code Generation**: Integrated with Google AI Studio for intelligent code generation and debugging support.
+- 💬 **AI Chatbot**: Get real-time answers to code-related queries.
+- 🧠 **Chat History**: Trace the progress and evolution of your project through chat logs.
+- 🛠️ **Live Code Editor**: Instantly edit and preview code with a built-in live console.
+- 📦 **One-Click Export**: Export your entire project as a downloadable `.zip` file.
+- 🌐 **One-Click Deployment**: Deploy your generated project directly to the web.
+- 💰 **Token-Based Access**: Purchase tokens via PayPal to generate new projects.
+- 🤝 **Real-Time Collaboration** *(Coming Soon)*: Work on the same project with multiple users simultaneously.
+- 📄 **Automated Docs & GitHub Push** *(Coming Soon)*: One-click GitHub repo creation and documentation generation.
+
+## 🧑‍💻 Tech Stack
+
+| Frontend            | Backend              | AI/ML Integration       | Storage & Auth         |
+|---------------------|----------------------|--------------------------|-------------------------|
+| React.js + Next.js  | Node.js + Express.js | Google AI Studio         | UUID, react-oauth      |
+| Tailwind CSS        | Convex (collab logic)| Google Generative Models| PayPal API (token system)|
+
+## 🖥️ Live Preview
+
+Check out the live deployed version:  
+🔗 [https://coderobo.vercel.app](https://coderobo.vercel.app)
+
+## 📸 Screenshots
+
+![Dashboard Preview](./assets/screenshot-dashboard.png)
+![Code Editor](./assets/screenshot-editor.png)
+
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js >= 16.x
+- npm or yarn
+- Google AI Studio API key (for AI features)
+
+### Installation
 
 ```bash
+# Clone the repo
+git clone https://github.com/SujalAgrawal08/coderobo.git
+cd coderobo
+
+# Install dependencies
+npm install
+
+# Run the app
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
